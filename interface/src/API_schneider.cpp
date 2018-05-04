@@ -27,7 +27,7 @@ if (modbus_connect(api) == -1)
 	printf("Echec de connection : %s\n", modbus_strerror(errno));
 	modbus_free(api);
 	exit(-1);
-	}
+	} 
 	cout << "Connection réussie" << endl;
 }
 	//-------------------------------------------------------------------------------------------
